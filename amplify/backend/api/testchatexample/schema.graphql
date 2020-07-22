@@ -1,0 +1,11 @@
+type User @model {
+  id: ID!
+  name: String!
+  isOnline: Boolean!
+}
+
+type Message @model {
+  id: ID!
+  user: String!
+  text: String!
+}
